@@ -1,6 +1,7 @@
 import Image from 'next/image';
 
 interface ProfileCardProps {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   imageSrc: any;
   altText: string;
   description: string;
