@@ -1,5 +1,4 @@
 import ProfileCard from './ProfileCard';
-import Image from 'next/image';
 import FotoLima from '/public/foto-lima.png';
 import FotoMarques from '/public/foto-marques.png';
 import FotoCaua from '/public/foto-caua.png';

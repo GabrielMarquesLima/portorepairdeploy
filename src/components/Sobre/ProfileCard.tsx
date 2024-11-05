@@ -1,8 +1,4 @@
 import Image from 'next/image';
-import Link from 'next/link';
-import linkedin from '/public/linkedin-icon.png';
-import whatsapp from '/public/whatsapp-icon.png';
-import github from '/public/github-icon.png';
 
 interface ProfileCardProps {
   imageSrc: any;
@@ -16,10 +12,7 @@ interface ProfileCardProps {
 export default function ProfileCard({
   imageSrc,
   altText,
-  description,
-  linkedinUrl,
-  githubUrl,
-  whatsappUrl,
+  description
 }: ProfileCardProps) {
   return (
     <div className="flex flex-col items-center md:flex-row gap-8">
